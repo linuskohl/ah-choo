@@ -1,0 +1,135 @@
+/**
+ * Copyright (c) 2018
+ *
+ * Styles graphic ah-choo
+ *
+ * @author Linus Kohl <linus@munichresearch.com>
+ *
+ * Created at     : 2018-10-10
+ * Last modified  : 2018-10-10
+ */
+
+#indicator {
+  display: none;
+  fill: none;
+  stroke: #ff0000;
+  stroke-width: 0.4;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  /*
+  stroke-dasharray:2.06200004, 1.03100002;
+  */
+  stroke-dashoffset: 0;
+  stroke-opacity: 1
+}
+
+.period_label_container text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5px;
+  line-height: 1.25;
+  font-family: sans-serif;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  fill: #000000;
+  fill-opacity: 1;
+  stroke: none;
+  stroke-width: 0.26458332
+}
+
+#day_lines path {
+  stroke: #000;
+  stroke-width: 0.30000001;
+  stroke-miterlimit: 4;
+  /*
+  stroke-dasharray:0.3, 0.6;
+  stroke-dashoffset:0;
+  */
+  stroke-opacity: 0.07
+}
+
+#axes .axis {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.2323122px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+  marker-end: url(#marker3323)
+}
+
+.symptom-description {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  stroke-dasharray: none;
+  stroke-width: 0.1;
+  stroke: #fff;
+  font-size: 4px;
+  font-family: sans-serif;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-feature-settings: normal;
+  text-align: start;
+  writing-mode: lr-tb;
+  text-anchor: start;
+  fill: #ffffff
+}
+
+#headache {
+  fill: #c65530;
+}
+
+#cough {
+  fill: #3f5ba3;
+}
+
+#drycough {
+  fill: #714c84;
+}
+
+#rhinitis {
+  fill: #b4332c;
+}
+
+#sorethroat {
+  fill: #d4c748;
+}
+
+.bacteria {
+  fill: #415c44;
+  stroke: #000000;
+  stroke-width: 0.08780304;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 1
+}
+
+#infection .bacteria {
+  fill-opacity: 0.5;
+}
+
+#infection:hover .bacteria {
+  fill-opacity: 0.9;
+}
+
+.symptom path {
+  fill-opacity: 0.5;
+  stroke: #000000;
+  stroke-width: 0.2195076;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: 2.1, 0.7, 0.4, 0.7;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0.79614324
+}
+
+.symptom:hover>path {
+  fill-opacity: 0.9;
+}

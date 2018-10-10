@@ -1,0 +1,81 @@
+/**
+ * Copyright (c) 2018
+ *
+ * Styles ah-choo
+ *
+ * @author Linus Kohl <linus@munichresearch.com>
+ *
+ * Created at     : 2018-10-10
+ * Last modified  : 2018-10-10
+ */
+
+html,
+body {
+  height: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  box-shadow: inset 0px 15px 20px -10px #CCC, inset 0px -15px 20px -10px #CCC;
+  flex: 1 0 auto;
+  padding: 40px 0;
+  background-color: #eee;
+}
+
+.footer {
+  padding: 20px;
+  margin: 0;
+}
+
+.footer .content {
+  background: white;
+}
+
+.footer p {
+  background: white;
+}
+
+#logo {
+  height: 100%;
+  float: right;
+}
+
+#charly {
+  float: left;
+  max-height: 174px;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#graphic {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+#heart {
+  height: 17px;
+  width: auto;
+}
+
+#help {
+  color: #e30a17;
+}
+
+a {
+  color: #e30a17;
+}
